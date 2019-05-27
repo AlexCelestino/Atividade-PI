@@ -7,18 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LOGIN</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
+    <h2 class="h2">Login</h2>
+    <br> <br> <br> <br> <br> <br>
     <div class="estilo_formulario">
         <form>
             <input type="text" class="estilo_formulario" id="login" placeholder="login" required name="login">
-            <input type="text" class="estilo_formulario" id="senha" placeholder="senha" required name="senha">
+            <input type="password" class="estilo_formulario" id="senha" placeholder="senha" required name="senha">
         </form>
-        <div>
-            <a onclick="seila()">Cadastre-se</a> <a class="entrar">Entrar</a>
-        </div>
+        <button type="button" onclick="irCadastro()">Cadastre-se</button> <button type="button" onclick="entrar()">Entrar</button>
     </div>
 </body>
 

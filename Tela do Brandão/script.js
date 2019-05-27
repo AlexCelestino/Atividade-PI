@@ -1,3 +1,0 @@
-function seila() {
-    alert('seila');
-}

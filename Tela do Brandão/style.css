@@ -1,6 +1,6 @@
 .estilo_formulario {
     text-align: center;
-    margin-left: 200px;
+    margin-left: 210px;
     width: 50%;
     padding: 7px;
     height: 30px;
@@ -12,4 +12,7 @@ body {
 
 .entrar {
     margin-left: 20px;
+}
+.h2 {
+    text-align: center;
 }
