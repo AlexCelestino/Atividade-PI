@@ -1,0 +1,3 @@
+function seila() {
+    alert('seila');
+}
